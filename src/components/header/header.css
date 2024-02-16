@@ -1,0 +1,57 @@
+/* Header.css */
+.header-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1E90FF; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 7.5vh; 
+    padding: 0 40px; 
+    color: white; 
+    font-size: 0.9em; 
+  }
+  
+  .header-bottom {
+    position: relative;
+    top: 7.5vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    color: white; 
+    height: 7.5vh; 
+    padding-left: 40px; 
+    font-size: 0.9em; 
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 90%; 
+    margin: 0 auto; 
+  }
+  
+  .login-button button {
+    background-color: transparent; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 1em; 
+    margin-right: -1110px; 
+  }
+  
+  .trial-button button {
+    background-color: transparent; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    font-size: 1em; 
+    margin-left: 600px; 
+    margin-top: 5px;
+  }
